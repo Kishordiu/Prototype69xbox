@@ -10,7 +10,9 @@ Prototype69xbox is a spatial web experiment: a product-like interface where the 
 
 ## THE EXPERIENCE
 
-**Treat the viewport as space.**  \n**Let motion explain the object.**  \n**Keep the surrounding UI quiet.**
+**Treat the viewport as space.**  
+**Let motion explain the object.**  
+**Keep the surrounding UI quiet.**
 
 ## THE SYSTEM
 
