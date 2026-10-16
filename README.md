@@ -22,19 +22,22 @@ React 18 · TypeScript · Vite · Three.js · Tailwind CSS · Supabase
 
 ## RUN
 
-**Requirements:** Node.js 20+ and npm.
+Requirements: Node.js and npm.
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Vite prints the local development URL in the terminal. To build and preview the production bundle:
+Vite prints the local development URL. Before shipping, run:
 
 ```bash
+npm run typecheck
 npm run build
-npm run preview
+npm run lint
 ```
+
+This is a spatial/3D web prototype; device-specific performance still needs to be checked on target hardware.
 
 ## PROJECT STATE
 
