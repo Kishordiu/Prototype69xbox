@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero-banner.svg" alt="Prototype 69 Xbox — 3D Spatial Controller Architecture" width="100%" />
+  <img src="./assets/hero.png" alt="Prototype 69 Xbox — 3D Spatial Controller Architecture" width="100%" />
 </div>
 
 <p align="center">
