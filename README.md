@@ -5,12 +5,12 @@
 <p align="center">
   <a href="https://diufoundry.online"><img alt="Studio" src="https://img.shields.io/badge/DIU_FOUNDRY-HARDWARE_LAB-0B2312?style=for-the-badge&logoColor=22C55E&labelColor=040705" /></a>&nbsp;
   <img alt="Domain" src="https://img.shields.io/badge/SPATIAL_WEB-THREE.JS_3D-107C10?style=for-the-badge&labelColor=040705" />&nbsp;
-  <img alt="Latency" src="https://img.shields.io/badge/INPUT_LATENCY-0.4_ms-4ADE80?style=for-the-badge&labelColor=040705" />&nbsp;
+  <img alt="Prototype" src="https://img.shields.io/badge/STATUS-INTERACTIVE_PROTOTYPE-4ADE80?style=for-the-badge&labelColor=040705" />&nbsp;
   <img alt="Stack" src="https://img.shields.io/badge/REACT_+_VITE-SUPABASE-86EFAC?style=for-the-badge&labelColor=040705" />
 </p>
 
 <p align="center">
-  <b>Sub-millisecond input precision, mechanical wireframe physics, and spatial cyber telemetry.</b><br/>
+  <b>Spatial interaction, browser gamepad input, and a tactile 3D hardware-inspired workbench.</b><br/>
   <em>An experimental 3D spatial testbed for gamepad telemetry, security attack simulation, and tactile input mapping.</em>
 </p>
 
@@ -18,14 +18,14 @@
 
 ## ✦ System Overview
 
-**Prototype 69 Xbox** merges physical hardware diagnostics with interactive 3D graphics. Built by DIU Foundry, this workbench renders an exploded 3D spatial model alongside live Gamepad API polling, measuring microsecond-level axis jitter, analog trigger travel curves, and tamper-resistance telemetry.
+**Prototype 69 Xbox** combines an interactive 3D visualisation with browser-accessible gamepad input and scripted security scenarios. It is an exploratory interface prototype: the visual panels demonstrate concepts and do not represent verified physical measurements, hardware tamper sensors, or a production security system.
 
 ```text
  ┌─────────────────────────────────────────────────────────────────────────────┐
  │                         HARDWARE DIAGNOSTIC TELEMETRY                       │
  ├─────────────────────┬───────────────────────────────┬───────────────────────┤
- │ POLLING RATE: 1000Hz│ ANALOG TRIGGER TRAVEL: RT 92% │ ATTACK SIMULATION: OK │
- │ LATENCY: 0.4ms Jitter│ THUMBSTICK GYRO: ±0.02° Drift │ TAMPER MITIGATION: ON │
+ │ INPUT SOURCE: BROWSER GAMEPAD API │ VISUALIZATION: INTERACTIVE │
+ │ SECURITY FLOW: SCRIPTED DEMONSTRATION │ HARDWARE VALIDATION: NOT CLAIMED │
  └─────────────────────┴───────────────────────────────┴───────────────────────┘
 ```
 
@@ -34,10 +34,10 @@
 ## 🕹️ Spatial Architecture & Telemetry Pipeline
 
 ```text
-[ HARDWARE GAMEPAD ] ── (W3C Gamepad API · 1000 Hz)
+[ CONNECTED GAMEPAD ] ── (Browser Gamepad API · browser-reported input)
         │
         ▼
-[ LOW-LATENCY INPUT BUFFER ]
+[ INPUT STATE / UI MAPPING ]
         │
         ├─► [ THREE.JS 3D VIEWPORT ] ──► (Interactive Orbit Controls & Wireframe Mesh)
         ├─► [ ANALOG AXIS METER ]   ──► (Deadzone Calibration & Jitter Elimination)
@@ -50,9 +50,9 @@
 ## ✦ Core Capabilities
 
 - **3D Spatial Hardware Model** (`src/components/GlobeBackground.tsx` & Three.js canvas) — Real-time 3D coordinate gimbal, procedural mesh lighting, and interactive rotation.
-- **Microsecond Input Diagnostics** — High-precision thumbstick telemetry tracking $(X, Y)$ vector displacement and trigger tension percentages.
-- **Cyber Attack & Security Simulation** (`src/components/SecuritySimulation.tsx`, `AttackSimulation.tsx`) — Simulates hardware denial-of-service, signal jamming, and physical bus tampering.
-- **Enclosure Tamper Mitigation** (`src/components/TamperDetection.tsx`) — Monitors device enclosure state and flags unauthorized physical disassembly.
+- **Gamepad Input Visualisation** — Displays browser-reported axis/button state where a compatible controller and browser expose the Gamepad API; measurements are not laboratory latency or microsecond diagnostics.
+- **Cyber Attack & Security Simulation** (`src/components/SecuritySimulation.tsx`, `AttackSimulation.tsx`) — Shows scripted attack/detection/blocked phases as an interface demonstration; it does not perform real packet flooding, signal jamming, or hardware-bus testing.
+- **Tamper-Concept UI** (`src/components/TamperDetection.tsx`) — An interface concept for presenting a tamper state; it is not connected to a physical enclosure sensor unless separately implemented.
 
 ---
 
@@ -76,7 +76,7 @@ Prototype69xbox/
 
 ---
 
-## ⚡ Quickstart
+## Prototype boundary\n\nSecurity and attack screens are scripted visual scenarios for demonstration. They do not validate secure boot, authenticate a physical device, block real attacks, or certify hardware safety. Do not use the displayed demonstration state as a security assessment.\n\n## ⚡ Quickstart
 
 ```bash
 # Clone repository
