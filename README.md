@@ -2,6 +2,8 @@
   <img src="./assets/hero.png" alt="Prototype 69 Xbox — 3D Spatial Controller Architecture" width="100%" />
 </div>
 
+# Prototype 69 Xbox
+
 <p align="center">
   <a href="https://diufoundry.online"><img alt="Studio" src="https://img.shields.io/badge/DIU_FOUNDRY-HARDWARE_LAB-0B2312?style=for-the-badge&logoColor=22C55E&labelColor=040705" /></a>&nbsp;
   <img alt="Domain" src="https://img.shields.io/badge/SPATIAL_WEB-THREE.JS_3D-107C10?style=for-the-badge&labelColor=040705" />&nbsp;
