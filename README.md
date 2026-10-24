@@ -78,7 +78,9 @@ Prototype69xbox/
 
 ## Prototype boundary
 
-Security and attack screens are scripted visual scenarios for demonstration. They do not validate secure boot, authenticate a physical device, block real attacks, or certify hardware safety. Do not use the displayed demonstration state as a security assessment.\n\n## ⚡ Quickstart
+Security and attack screens are scripted visual scenarios for demonstration. They do not validate secure boot, authenticate a physical device, block real attacks, or certify hardware safety. Do not use the displayed demonstration state as a security assessment.
+
+## ⚡ Quickstart
 
 ```bash
 # Clone repository
