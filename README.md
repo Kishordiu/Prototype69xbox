@@ -42,7 +42,7 @@
         ├─► [ THREE.JS 3D VIEWPORT ] ──► (Interactive Orbit Controls & Wireframe Mesh)
         ├─► [ ANALOG AXIS METER ]   ──► (Deadzone Calibration & Jitter Elimination)
         ├─► [ ATTACK SIMULATION ]   ──► (Packet Flood & State Integrity Testing)
-        └─► [ TAMPER DETECTION ]    ──► (Physical Enclosure Telemetry Log)
+        └─► [ TAMPER-CONCEPT UI ]  ──► (Illustrative interface state)
 ```
 
 ---
@@ -76,7 +76,9 @@ Prototype69xbox/
 
 ---
 
-## Prototype boundary\n\nSecurity and attack screens are scripted visual scenarios for demonstration. They do not validate secure boot, authenticate a physical device, block real attacks, or certify hardware safety. Do not use the displayed demonstration state as a security assessment.\n\n## ⚡ Quickstart
+## Prototype boundary
+
+Security and attack screens are scripted visual scenarios for demonstration. They do not validate secure boot, authenticate a physical device, block real attacks, or certify hardware safety. Do not use the displayed demonstration state as a security assessment.\n\n## ⚡ Quickstart
 
 ```bash
 # Clone repository
