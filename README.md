@@ -24,7 +24,7 @@
 
 ```text
  ┌─────────────────────────────────────────────────────────────────────────────┐
- │                         HARDWARE DIAGNOSTIC TELEMETRY                       │
+ │                         SPATIAL INPUT / SCRIPTED INTERACTION                       │
  ├─────────────────────┬───────────────────────────────┬───────────────────────┤
  │ INPUT SOURCE: BROWSER GAMEPAD API │ VISUALIZATION: INTERACTIVE │
  │ SECURITY FLOW: SCRIPTED DEMONSTRATION │ HARDWARE VALIDATION: NOT CLAIMED │
@@ -42,8 +42,8 @@
 [ INPUT STATE / UI MAPPING ]
         │
         ├─► [ THREE.JS 3D VIEWPORT ] ──► (Interactive Orbit Controls & Wireframe Mesh)
-        ├─► [ ANALOG AXIS METER ]   ──► (Deadzone Calibration & Jitter Elimination)
-        ├─► [ ATTACK SIMULATION ]   ──► (Packet Flood & State Integrity Testing)
+        ├─► [ ANALOG AXIS METER ]   ──► (Axis-state visualisation)
+        ├─► [ ATTACK SIMULATION ]   ──► (Scripted visual state sequence)
         └─► [ TAMPER-CONCEPT UI ]  ──► (Illustrative interface state)
 ```
 
@@ -51,7 +51,7 @@
 
 ## ✦ Core Capabilities
 
-- **3D Spatial Hardware Model** (`src/components/GlobeBackground.tsx` & Three.js canvas) — Real-time 3D coordinate gimbal, procedural mesh lighting, and interactive rotation.
+- **3D Hardware-Inspired Model** (`src/components/GlobeBackground.tsx` & Three.js canvas) — Real-time 3D coordinate gimbal, procedural mesh lighting, and interactive rotation.
 - **Gamepad Input Visualisation** — Displays browser-reported axis/button state where a compatible controller and browser expose the Gamepad API; measurements are not laboratory latency or microsecond diagnostics.
 - **Cyber Attack & Security Simulation** (`src/components/SecuritySimulation.tsx`, `AttackSimulation.tsx`) — Shows scripted attack/detection/blocked phases as an interface demonstration; it does not perform real packet flooding, signal jamming, or hardware-bus testing.
 - **Tamper-Concept UI** (`src/components/TamperDetection.tsx`) — An interface concept for presenting a tamper state; it is not connected to a physical enclosure sensor unless separately implemented.
@@ -67,8 +67,8 @@ Prototype69xbox/
 │   ├── components/         # Telemetry panels & Three.js canvas wrappers
 │   │   ├── GlobeBackground.tsx      # 3D spatial environment canvas
 │   │   ├── SecuritySimulation.tsx   # Security defense testing harness
-│   │   ├── AttackSimulation.tsx     # Packet injection stress tests
-│   │   ├── TamperDetection.tsx      # Hardware chassis integrity logs
+│   │   ├── AttackSimulation.tsx     # Scripted attack-state UI sequence
+│   │   ├── TamperDetection.tsx      # Tamper-state demonstration UI
 │   │   └── NetworkVisualization.tsx # Fleet device telemetry mesh
 │   ├── App.tsx             # Primary control console & simulation state
 │   ├── main.tsx            # React root mount
